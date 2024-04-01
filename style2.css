@@ -1,0 +1,272 @@
+.main {
+  background-color: #dae4ed;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+
+ 
+
+}
+.form1 {
+  width: 400px;
+}
+li {
+  list-style-type: none;
+}
+
+.firstInput {
+  margin-left: 2rem;
+  height: 40px;
+  width: 200px;
+  border-radius: 2rem;
+  text-align: center;
+}
+.icon {
+  position: relative;
+}
+.icon2 {
+  margin-left: 3px;
+  height: 5px;
+}
+#navbarDropdown {
+  color: black;
+}
+.searchCars {
+  margin-left: 22rem;
+  width: 45rem;
+  height: 70px;
+  border-radius: 2rem;
+  align-items: center;
+  background-color: #f1f1f1;
+  overflow: hidden;
+
+}
+.imagem {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: auto;
+  width: auto;
+  display: flex;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+.types{
+  display: flex;
+  gap: 50px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+h2{
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    overflow: hidden;
+  }
+  
+  .main {
+    width: 100%;
+  }
+  
+  .form1 {
+    width: 100%;
+  }
+  
+  .searchCars {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .firstInput {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .searchCars {
+    width: 100%;
+    height: auto;
+  }
+  .imagem {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    overflow: hidden;
+  }
+  
+  .main {
+    width: 100%;
+  }
+  
+  .form1 {
+    width: 100%;
+  }
+  
+  .searchCars {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .firstInput {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .searchCars {
+    width: 100%;
+    height: auto;
+  }
+  .imagem {
+    width: auto;
+    height: auto;
+
+  }
+}
+
+@media (max-width: 570px) {
+  .container {
+    overflow: hidden;
+  }
+  
+  .main {
+    width: 100%;
+  }
+  
+  .form1 {
+    width: 100%;
+  }
+  
+  .searchCars {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .firstInput {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .searchCars {
+    width: 100%;
+    height: auto;
+  }
+  .imagem {
+    width: auto;
+    height: auto;
+ 
+
+  }
+}
+@media (max-width: 670px) {
+  .container {
+    overflow: hidden;
+  }
+  
+  .main {
+    width: 100%;
+  }
+  
+  .form1 {
+    width: 100%;
+  }
+  
+  .searchCars {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .firstInput {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .searchCars {
+    width: 100%;
+    height: auto;
+  }
+  .imagem {
+    width: auto;
+    height: auto;
+
+
+  }
+}
+@media (max-width: 520px) {
+  .container {
+    overflow: hidden;
+  }
+  
+  .main {
+    width: 100%;
+  }
+  
+  .form1 {
+    width: 100%;
+  }
+  
+  .searchCars {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .firstInput {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .searchCars {
+    width: 100%;
+    height: auto;
+  }
+  .imagem {
+    width: auto;
+    height: auto;
+    
+   
+
+  }
+}
+@media (max-width: 440px) {
+  .container {
+    overflow: hidden;
+  }
+  
+  .main {
+    width: 100%;
+  }
+  
+  .form1 {
+    width: 100%;
+  }
+  
+  .searchCars {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .firstInput {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .searchCars {
+    width: 100%;
+    height: auto;
+  }
+  .imagem {
+    width: 100%;
+    height: auto;
+    
+
+  }
+}
