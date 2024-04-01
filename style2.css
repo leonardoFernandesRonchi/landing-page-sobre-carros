@@ -93,7 +93,9 @@ h2{
     width: 100%;
     height: auto;
     object-fit: cover;
+    margin-top: 8rem;
   }
+  
 }
 
 @media (max-width: 1200px) {
@@ -130,7 +132,7 @@ h2{
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 375px) {
   .container {
     overflow: hidden;
   }
@@ -151,6 +153,7 @@ h2{
   .firstInput {
     margin-left: 0;
     width: 100%;
+  
   }
   
   .searchCars {
@@ -159,7 +162,9 @@ h2{
   }
   .imagem {
     width: 100%;
-    height: auto;
+    height: 80%;
+    margin-top: 15rem;
+  padding-top: 8rem;
  
 
   }
@@ -232,7 +237,7 @@ h2{
 
   }
 }
-@media (max-width: 440px) {
+@media (max-width: 425px) {
   .container {
     overflow: hidden;
   }
@@ -262,6 +267,7 @@ h2{
   .imagem {
     width: 100%;
     height: auto;
+    margin-top: 13rem;
     
 
   }
