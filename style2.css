@@ -2,7 +2,7 @@
   background-color: #dae4ed;
   text-align: center;
   align-items: center;
- 
+ max-width: 100%;
 
 }
 .form1 {
@@ -38,6 +38,7 @@ li {
   align-items: center;
   background-color: #f1f1f1;
   object-fit: cover;
+
   
 }
 .imagem {
