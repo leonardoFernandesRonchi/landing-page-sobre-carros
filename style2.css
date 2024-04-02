@@ -2,37 +2,26 @@
   background-color: #dae4ed;
   text-align: center;
   align-items: center;
- max-width: 100%;
+  max-width: 100%;
+}
 
-}
-.form1 {
-  width: 400px;
-}
 li {
   list-style-type: none;
 }
-
 .firstInput {
-  margin-left: 2rem;
-  height: 40px;
-  width: 200px;
+  height: 7vh;
+  width: 20vw;
   border-radius: 2rem;
   text-align: center;
 }
-.icon {
-  position: relative;
-}
-.icon2 {
-  margin-left: 3px;
-  height: 5px;
-}
+
+
 #navbarDropdown {
   color: black;
 }
 .searchCars {
-  flex-wrap: wrap;
   margin-left: 25vw;
-  width: 44vw;
+  width: 100vw;
   height: 70px;
   border-radius: 2rem;
   align-items: center;
@@ -66,248 +55,64 @@ h2{
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px),
+       (max-width: 1024px),
+       (max-width: 1200px),
+       (max-width: 375px),
+       (max-width: 670px) {
   .container {
     overflow: hidden;
   }
   
-  .main {
-    width: 100%;
-  }
-  
-  .form1 {
-    width: 100%;
-  }
-  
-  .searchCars {
-    margin-left: 0;
-    width: 100%;
-  }
-  
+  .main,
+  .form1,
+  .searchCars,
   .firstInput {
-    margin-left: 0;
     width: 100%;
+    margin-left: 0;
   }
   
-  .searchCars {
-    width: 100%;
-    height: auto;
-  }
+  .searchCars,
   .imagem {
     width: 100%;
     height: auto;
+  }
+  
+  .imagem {
     object-fit: cover;
     margin-top: 8rem;
   }
   
+  @media (max-width: 375px) {
+    .imagem {
+      height: 80%;
+      margin-top: 15rem;
+      padding-top: 8rem;
+    }
+  }
 }
-@media (max-width: 1024px) {
+
+@media (max-width: 520px),
+       (max-width: 425px) {
   .container {
     overflow: hidden;
   }
   
-  .main {
-    width: 100%;
-  }
-  
-  .form1 {
-    width: 100%;
-  }
-  
-  .searchCars {
-    margin-left: 0;
-    width: 100%;
-  }
-  
+  .main,
+  .form1,
+  .searchCars,
   .firstInput {
-    margin-left: 0;
     width: 100%;
+    margin-left: 0;
   }
   
-  .searchCars {
-    width: 100%;
-    height: auto;
-  }
+  .searchCars,
   .imagem {
     width: 100%;
     height: auto;
-    object-fit: cover;
-    margin-top: 8rem;
   }
   
-}
-
-@media (max-width: 1200px) {
-  .container {
-    overflow: hidden;
-  }
-  
-  .main {
-    width: 100%;
-  }
-  
-  .form1 {
-    width: 100%;
-  }
-  
-  .searchCars {
-    margin-left: 0;
-    width: 100%;
-  }
-  
-  .firstInput {
-    margin-left: 0;
-    width: 100%;
-  }
-  
-  .searchCars {
-    width: 100%;
-    height: auto;
-  }
   .imagem {
-    width: 100%;
-    height: auto;
-
-  }
-}
-
-@media (max-width: 375px) {
-  .container {
-    overflow: hidden;
-  }
-  
-  .main {
-    width: 100%;
-  }
-  
-  .form1 {
-    width: 100%;
-  }
-  
-  .searchCars {
-    margin-left: 0;
-    width: 100%;
-  }
-  
-  .firstInput {
-    margin-left: 0;
-    width: 100%;
-  
-  }
-  
-  .searchCars {
-    width: 100%;
-    height: auto;
-  }
-  .imagem {
-    width: 100%;
-    height: 80%;
-    margin-top: 15rem;
-  padding-top: 8rem;
- 
-
-  }
-}
-@media (max-width: 670px) {
-  .container {
-    overflow: hidden;
-  }
-  
-  .main {
-    width: 100%;
-  }
-  
-  .form1 {
-    width: 100%;
-  }
-  
-  .searchCars {
-    margin-left: 0;
-    width: 100%;
-  }
-  
-  .firstInput {
-    margin-left: 0;
-    width: 100%;
-  }
-  
-  .searchCars {
-    width: 100%;
-    height: auto;
-  }
-  .imagem {
-    width: 100%;
-    height: auto;
-
-
-  }
-}
-@media (max-width: 520px) {
-  .container {
-    overflow: hidden;
-  }
-  
-  .main {
-    width: 100%;
-  }
-  
-  .form1 {
-    width: 100%;
-  }
-  
-  .searchCars {
-    margin-left: 0;
-    width: 100%;
-  }
-  
-  .firstInput {
-    margin-left: 0;
-    width: 100%;
-  }
-  
-  .searchCars {
-    width: 100%;
-    height: auto;
-  }
-  .imagem {
-    width: 100%;
-    height: auto;
-   
-
-  }
-}
-@media (max-width: 425px) {
-  .container {
-    overflow: hidden;
-  }
-  
-  .main {
-    width: 100%;
-  }
-  
-  .form1 {
-    width: 100%;
-  }
-  
-  .searchCars {
-    margin-left: 0;
-    width: 100%;
-  }
-  
-  .firstInput {
-    margin-left: 0;
-    width: 100%;
-  }
-  
-  .searchCars {
-    width: 100%;
-    height: auto;
-  }
-  .imagem {
-    width: 100%;
-    height: auto;
     margin-top: 13rem;
-    
-
   }
 }
