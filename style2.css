@@ -4,7 +4,6 @@
   align-items: center;
   max-width: 100%;
 }
-
 li {
   list-style-type: none;
 }
@@ -13,22 +12,20 @@ li {
   width: 20vw;
   border-radius: 2rem;
   text-align: center;
+  margin-left: 1rem;
+  margin-bottom: 0.75rem;
 }
-
-
 #navbarDropdown {
   color: black;
 }
 .searchCars {
   margin-left: 25vw;
-  width: 100vw;
+  width: 44rem;
   height: 70px;
   border-radius: 2rem;
   align-items: center;
   background-color: #f1f1f1;
   object-fit: cover;
-
-  
 }
 .imagem {
   position: absolute;
@@ -38,19 +35,12 @@ li {
   margin-top: 2rem;
   display: flex;
       width: 60%;
-
 }
 .imagem img{
   max-width: 100%;
   object-fit: cover;
   margin: 0 auto;
-
-
-
 }
-
-    
-
 h2{
   text-align: center;
 }
