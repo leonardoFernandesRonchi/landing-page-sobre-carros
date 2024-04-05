@@ -48,7 +48,7 @@ h2{
 @media (max-width: 768px),
        (max-width: 1024px),
        (max-width: 1200px),
-       (max-width: 375px),
+       (max-width: 320px),
        (max-width: 670px) {
   .container {
     overflow: hidden;
@@ -63,15 +63,13 @@ h2{
   }
   
   .searchCars,
-  .imagem {
+  .divImagem {
     width: 100%;
     height: auto;
-  }
-  
-  .imagem {
     object-fit: cover;
-    margin-top: 8rem;
+    margin-top: 13rem;
   }
+
   
   @media (max-width: 375px) {
     .imagem {
@@ -97,12 +95,11 @@ h2{
   }
   
   .searchCars,
-  .imagem {
+  .divImagem {
     width: 100%;
     height: auto;
-  }
-  
-  .imagem {
     margin-top: 13rem;
+
   }
+
 }
